@@ -1,0 +1,32 @@
+{
+  "name": "icloud-mail-mcp",
+  "version": "0.1.0",
+  "description": "Local MCP server for iCloud Mail (read, organise, draft)",
+  "scripts": {
+    "test": "vitest run",
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "start": "node dist/stdio.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "html-to-text": "10.0.1",
+    "imapflow": "2.11.0",
+    "mailparser": "3.14.3",
+    "nodemailer": "10.5.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/mailparser": "3.9.0",
+    "@types/node": "26.6.6",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vitest": "5.1.0"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "type": "module",
+  "license": "MIT",
+  "private": true
+}

@@ -1,0 +1,19 @@
+From: Me <me@icloud.com>
+To: Jane Doe <jane@example.com>
+Subject: Re: Lunch on Friday?
+Message-ID: <reply-3@icloud.com>
+In-Reply-To: <reply-2@example.com>
+References: <root-1@example.com> <reply-2@example.com>
+Date: Thu, 12 Nov 2026 12:00:00 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="alt"
+
+--alt
+Content-Type: text/plain; charset=utf-8
+
+
+--alt
+Content-Type: text/html; charset=utf-8
+
+<html><body><div>Noon is perfect, see you <a href="https://example.com/map">there</a>.</div><div><br></div><blockquote type="cite"><div>On 12 Nov 2026, at 09:15, Jane Doe &lt;jane@example.com&gt; wrote:</div><br><div>Friday works for me. Noon at the usual place?</div></blockquote></body></html>
+--alt--
